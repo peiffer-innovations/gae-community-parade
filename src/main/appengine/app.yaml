@@ -1,0 +1,8 @@
+runtime: java11
+instance_class: F4
+automatic_scaling:
+  min_idle_instances: 1
+
+# Explicitly set the memory limit and maximum heap size for the CXF app.
+env_variables:
+  JAVA_TOOL_OPTIONS: "-XX:MaxRAM=1024m -XX:ActiveProcessorCount=2 -Xmx256m"
