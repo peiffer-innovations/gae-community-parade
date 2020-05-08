@@ -1,9 +1,10 @@
 package com.pi.gae.community.parade.models;
 
 public class CommunityMetadata {
-  private String id;
-  private String name;
   private GeoBounds bounds;
+  private String id;
+  private String location;
+  private String name;
 
 
   public GeoBounds getBounds() {
@@ -12,6 +13,10 @@ public class CommunityMetadata {
 
   public String getId() {
     return id;
+  }
+
+  public String getLocation() {
+    return location;
   }
 
   public String getName() {
@@ -24,6 +29,10 @@ public class CommunityMetadata {
 
   public void setId(String id) {
     this.id = id;
+  }
+
+  public void setLocation(String location) {
+    this.location = location;
   }
 
   public void setName(String name) {

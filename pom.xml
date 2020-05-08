@@ -251,7 +251,7 @@
         <artifactId>appengine-maven-plugin</artifactId>
         <version>${appengine-maven-plugin.version}</version>
         <configuration>
-          <projectId>community-parade-275318</projectId>
+          <projectId>community-parade-1</projectId>
           <version>${build.number}</version>
         </configuration>
       </plugin>
