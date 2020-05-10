@@ -44,6 +44,7 @@ public class CommunityMetadata {
 
     md.setBounds(bounds);
     md.setId(id);
+    md.setLocation(location);
     md.setName(name);
 
     return md;
